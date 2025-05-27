@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+
+:root{
+    --branco:#fff;
+    --cinza:#333;
+    --cinza-claro:#666;
+    --azul:#0F52BA;
+    --border: .1rem solid rgba(0,0,0,.3);
+    --box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+*{
+    font-family: "Numans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+*::selection{
+    background: var(--azul);
+    color: var(--branco);
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 2rem 9%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--azul);
+    color: var(--branco);
+    padding: .8rem 3rem;
+    border: .2rem solid var(--azul);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background: rgb(162, 186, 223);
+    color: var(--azul);
+}
+
+#menu-bar{
+    color: var(--branco);
+    border:.1rem solid var(--branco);
+    border-radius: .5rem;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.heading span{
+    font-size: 3.5rem;
+    background: #4450613d;
+    color: var(--azul);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+
+.heading span .space{
+    background: none;
+}

@@ -1,0 +1,44 @@
+.packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.packages .box-container .box{
+    flex: 1 1 30rem;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+.packages .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+.packages .box-container .box .content{
+    padding: 2rem;
+}
+.packages .box-container .box .content h3{
+    font-size: 2rem;
+    color: var(--cinza);
+}
+.packages .box-container .box .content h3 i{
+    color: var(--azul);
+}
+.packages .box-container .box .content p{
+    font-size: 1.7rem;
+    color: var(--cinza-claro);
+    padding: 1rem 0;
+}
+.packages .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--azul);
+}
+.packages .box-container .box .content .price{
+    font-size: 2rem;
+    color: var(--cinza);
+    padding-top: 1rem;
+}
+.packages .box-container .box .content .price span{
+    color: var(--cinza-claro);
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
